@@ -4,9 +4,12 @@
 **/*.swp
 Cargo.lock
 # VS Code/Cursor/IDE files
-.vscode/
+.vscode/*
 .idea/
-.DS_Store
 *.log
-# Linux/Mac system files
+# except tasks and launch configs
+!.vscode/tasks.json
+!.vscode/launch.json
+# OS system files
 Thumbs.db
+.DS_Store
