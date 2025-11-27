@@ -1,0 +1,12 @@
+# Rust/Cargo debug files
+/target/
+**/*.rs.bk
+**/*.swp
+Cargo.lock
+# VS Code/Cursor/IDE files
+.vscode/
+.idea/
+.DS_Store
+*.log
+# Linux/Mac system files
+Thumbs.db
